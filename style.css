@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: var(--primary);
+    background-color: var(--secondary);
+}
+
+/* header styling start */
+header {
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+}
+
+header div {
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+}
+
+header h1 {
+    color: var(--pop);
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: var(--secondary);
+    padding: 10px;
+    border: 5px solid var(--pop);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--secondary);
+    right: auto;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    right: auto;
+        background-color:seagreen ;
+        color: white;
+        
+}
+
+header nav {
+    margin: 20px;
+    right: auto;
+}
+
+header nav ul li a {
+    padding: 8px;
+    font-size: 28px;
+    margin: 20px 20px 0 0;
+    font-weight: bold;
+    right: auto;
+}
+
+header nav ul li a:hover {
+    background-color: gray;
+}
+/* header styling end*/
+
+/* self styling start*/
+.self {
+    background-color: beige;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.self img {
+    height: 300px;
+}
+
+/* self styling end*/
+
+.about-me {
+    background-color: beige;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title {
+    border-right: 5px solid var(--pop);
+    min-height: 100%;
+    text-align: right;
+    padding-right: 40px;
+    min-width: 20%;
+    max-width: 20%;
+}
+
+.title h2, h3 {
+    font-size: 48px;
+}
+
+.p {font-size: large;}
+
+/*   styling for grid wrapper*/
+
+.my-projects div img {
+    height: 100px;
+    border: seagreen;
+    border-radius: 10px;
+}
+
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 30px;
+}
+
+.about-me p {
+    font-size: 20px;
+    padding: 0 30px;
+    line-height: 1.6;
+    width: 90%;
+}
+.my-projects {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary);
+}
+.my-projects h2 {
+    color: var(--secondary);
+}
+.projects-grid-wrapper {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+/* contact me section styling starts*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.content-wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-list {
+    width: 60%;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+footer ul li {
+    /*padding-bottom: 15px;*/
+    font-weight: bold;
+
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: var(--primary);
+    padding: 8px;
+    font-weight: bold;
+}
+
+footer ul li a:hover {
+    background: var(--pop);
+    color: var(--secondary);
+    border-radius: 15px;
+}
+/* contact me section styling end */
